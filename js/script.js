@@ -31,6 +31,8 @@ const currency = () => {
             select[1].addEventListener('change', () => convert(0, 1));
 
         })
+        .catch(() =>  alert('Something went wrong'))
+
 }
 
 currency();
